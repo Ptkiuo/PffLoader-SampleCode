@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pffloader-testmod",
+  "version": "${version}",
+  "name": "PffLoader testmod",
+  "description": "Hello",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Ptkiuo/PffLoader-SampleCode"
+  },
+  "license": "CC0",
+  "icon": "assets/pffloader-testmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.ptk671.pffloadertestmod.client.PffLoaderTestmodClient"
+    ],
+    "main": [
+      "com.ptk671.pffloadertestmod.PffLoaderTestmod"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
